@@ -1,11 +1,11 @@
-let board;
+let game;
 
 function setup() {
   createCanvas(800, 800);
-  board = new Board(8, 8, width / 8, width / 8);
+  game = new Game();
 }
 
 function draw() {
   background(0);
-  board.show();
+  game.show();
 }
